@@ -18,9 +18,12 @@ This tracker provides actionable intelligence for security assessments, vendor e
 
 | CVE | Framework | CVSS | Summary | Fixed In |
 |-----|-----------|------|---------|----------|
+| [CVE-2025-14931](vulnerabilities/CVE-2025-14931.md) | smolagents | **10.0** | Remote Python Executor RCE (0-day) | Pending |
+| [CVE-2024-50050](vulnerabilities/CVE-2024-50050.md) | Llama Stack | 9.8 | ZeroMQ pickle deserialization | 0.0.41 |
+| [CVE-2025-68664](vulnerabilities/CVE-2025-68664.md) | LangChain | 9.3 | Serialization injection "LangGrinch" | 0.3.81, 1.2.5 |
 | [CVE-2025-32434](vulnerabilities/CVE-2025-32434.md) | PyTorch | 9.3 | `torch.load` RCE even with `weights_only=True` | 2.6.0 |
 | [CVE-2024-37059](vulnerabilities/CVE-2024-37059.md) | MLflow | 8.8 | PyTorch model loading via pickle | 2.14.2 |
-| [CVE-2024-50050](vulnerabilities/CVE-2024-50050.md) | Llama Stack | 9.8 | ZeroMQ pickle deserialization | 0.0.41 |
+| [CVE-2024-14021](vulnerabilities/CVE-2024-14021.md) | LlamaIndex | 8.4 | BGEM3Index unsafe deserialization | > 0.11.6 |
 | [CVE-2023-6730](vulnerabilities/CVE-2023-6730.md) | Transformers | 7.8 | RagRetriever pickle loading | 4.36.0 |
 | [CVE-2025-1716](vulnerabilities/CVE-2025-1716.md) | Picklescan | 7.5 | Scanner bypass via deserialization | 0.0.23 |
 
@@ -72,9 +75,10 @@ Use these during AI/ML vendor security reviews:
 
 ## Statistics
 
-- **Total CVEs Tracked:** 25+
+- **Total CVEs Tracked:** 8 documented (25+ planned)
 - **Frameworks Covered:** 8
-- **Critical Severity:** 6
+- **Critical Severity (CVSS 9+):** 4
+- **High Severity (CVSS 7-8.9):** 4
 - **Last Updated:** January 2026
 
 ---
