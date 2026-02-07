@@ -1,0 +1,66 @@
+[
+  {
+    "id": "CVE-2025-70559",
+    "description": "pdfminer.six before 20251230 contains an insecure deserialization vulnerability in the CMap loading mechanism. The library uses Python pickle to deserialize CMap cache files without validation. An attacker with the ability to place a malicious pickle file in a location accessible to the application can trigger arbitrary code execution or privilege escalation when the file is loaded by a trusted process. This is caused by an incomplete patch to CVE-2025-64512.",
+    "cvss_score": null,
+    "cvss_severity": null,
+    "published": "2026-02-03T18:16:17.783",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70559"
+  },
+  {
+    "id": "CVE-2025-70560",
+    "description": "Boltz 2.0.0 contains an insecure deserialization vulnerability in its molecule loading functionality. The application uses Python pickle to deserialize molecule data files without validation. An attacker with the ability to place a malicious pickle file in a directory processed by boltz can achieve arbitrary code execution when the file is loaded.",
+    "cvss_score": 8.4,
+    "cvss_severity": "HIGH",
+    "published": "2026-02-03T18:16:17.900",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70560"
+  },
+  {
+    "id": "CVE-2026-24954",
+    "description": "Deserialization of Untrusted Data vulnerability in magepeopleteam WpEvently mage-eventpress allows Object Injection.This issue affects WpEvently: from n/a through <= 5.0.8.",
+    "cvss_score": 8.8,
+    "cvss_severity": "HIGH",
+    "published": "2026-02-03T15:16:16.280",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24954"
+  },
+  {
+    "id": "CVE-2020-37071",
+    "description": "CraftCMS 3 vCard Plugin 1.0.0 contains a deserialization vulnerability that allows unauthenticated attackers to execute arbitrary PHP code through a crafted payload. Attackers can generate a malicious serialized payload that triggers remote code execution by exploiting the plugin's vCard download functionality with a specially crafted request.",
+    "cvss_score": 9.3,
+    "cvss_severity": "CRITICAL",
+    "published": "2026-02-03T22:16:22.300",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37071"
+  },
+  {
+    "id": "CVE-2026-0599",
+    "description": "A vulnerability in huggingface/text-generation-inference version 3.3.6 allows unauthenticated remote attackers to exploit unbounded external image fetching during input validation in VLM mode. The issue arises when the router scans inputs for Markdown image links and performs a blocking HTTP GET request, reading the entire response body into memory and cloning it before decoding. This behavior can lead to resource exhaustion, including network bandwidth saturation, memory inflation, and CPU over...",
+    "cvss_score": 7.5,
+    "cvss_severity": "HIGH",
+    "published": "2026-02-02T11:16:17.773",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0599"
+  },
+  {
+    "id": "CVE-2025-62603",
+    "description": "Fast DDS is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group\n). ParticipantGenericMessage is the DDS Security control-message container that carries not only the handshake but also on\ngoing security-control traffic after the handshake, such as crypto-token exchange, rekeying, re-authentication, and token \ndelivery for newly appearing endpoints. On receive, the CDR parser is invoked first and deserializes the `message_data` (i\n.e., the `Data...",
+    "cvss_score": 1.7,
+    "cvss_severity": "LOW",
+    "published": "2026-02-03T20:15:56.787",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62603"
+  },
+  {
+    "id": "CVE-2026-25632",
+    "description": "EPyT-Flow is a Python package designed for the easy generation of hydraulic and water quality scenario data of water distribution networks. Prior to 0.16.1, EPyT-Flow\u2019s REST API parses attacker-controlled JSON request bodies using a custom deserializer (my_load_from_json) that supports a type field. When type is present, the deserializer dynamically imports an attacker-specified module/class and instantiates it with attacker-supplied arguments. This allows invoking dangerous classes such as subp...",
+    "cvss_score": 10.0,
+    "cvss_severity": "CRITICAL",
+    "published": "2026-02-06T21:16:18.377",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25632"
+  },
+  {
+    "id": "CVE-2025-10279",
+    "description": "In mlflow version 2.20.3, the temporary directory used for creating Python virtual environments is assigned insecure world-writable permissions (0o777). This vulnerability allows an attacker with write access to the `/tmp` directory to exploit a race condition and overwrite `.py` files in the virtual environment, leading to arbitrary code execution. The issue is resolved in version 3.4.0.",
+    "cvss_score": 7.0,
+    "cvss_severity": "HIGH",
+    "published": "2026-02-02T11:16:16.867",
+    "nvd_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10279"
+  }
+]
