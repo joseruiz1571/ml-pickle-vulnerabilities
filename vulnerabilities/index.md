@@ -8,6 +8,8 @@ All tracked pickle deserialization vulnerabilities in ML frameworks.
 
 | CVE | Framework | CVSS | Summary |
 |-----|-----------|------|---------|
+| [CVE-2020-37071](CVE-2020-37071.md) | Unknown | 9.3 | CraftCMS 3 vCard Plugin 1.0.0 contains a deseriali... |
+| [CVE-2026-25632](CVE-2026-25632.md) | Unknown | 10.0 | EPyT-Flow is a Python package designed for the eas... |
 | [CVE-2025-14931](CVE-2025-14931.md) | smolagents | 10.0 | Remote Python Executor RCE (0-day) |
 | [CVE-2024-50050](CVE-2024-50050.md) | Llama Stack | 9.8 | ZeroMQ pickle deserialization RCE |
 | [CVE-2025-68664](CVE-2025-68664.md) | LangChain | 9.3 | Serialization injection "LangGrinch" |
@@ -17,6 +19,9 @@ All tracked pickle deserialization vulnerabilities in ML frameworks.
 
 | CVE | Framework | CVSS | Summary |
 |-----|-----------|------|---------|
+| [CVE-2026-25923](CVE-2026-25923.md) | Unknown | 8.7 | my little forum is a PHP and MySQL based internet ... |
+| [CVE-2026-24954](CVE-2026-24954.md) | Unknown | 8.8 | Deserialization of Untrusted Data vulnerability in... |
+| [CVE-2025-70560](CVE-2025-70560.md) | Unknown | 8.4 | Boltz 2.0.0 contains an insecure deserialization v... |
 | [CVE-2024-37059](CVE-2024-37059.md) | MLflow | 8.8 | PyTorch model loading via pickle |
 | [CVE-2024-14021](CVE-2024-14021.md) | LlamaIndex | 8.4 | BGEM3Index unsafe deserialization |
 | [CVE-2023-6730](CVE-2023-6730.md) | Transformers | 7.8 | RagRetriever pickle loading |
@@ -73,6 +78,7 @@ All tracked pickle deserialization vulnerabilities in ML frameworks.
 ## By Year
 
 ### 2025
+- [CVE-2025-70560](CVE-2025-70560.md) - Unknown
 - [CVE-2025-14931](CVE-2025-14931.md) - smolagents (December, 0-day)
 - [CVE-2025-68664](CVE-2025-68664.md) - LangChain (December)
 - [CVE-2025-32434](CVE-2025-32434.md) - PyTorch (April)
@@ -112,11 +118,11 @@ All tracked pickle deserialization vulnerabilities in ML frameworks.
 
 | Metric | Count |
 |--------|-------|
-| Total CVEs tracked | 8 (25+ planned) |
+| Total CVEs tracked | 13 (25+ planned) |
 | Critical severity | 4 |
 | High severity | 4 |
 | Frameworks covered | 8 |
-| Last updated | 2026-01-18 |
+| Last updated | 2026-02-10 |
 
 ---
 
